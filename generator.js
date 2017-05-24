@@ -178,7 +178,7 @@ let randomBullshit = [
 // randomly use capslock and add some bangs
 const buranize = (sentence, howMuchCapslock, howMuchTypos) => {
   const splits = sentence.split(/([\s,.!?]+)/g);
-  const result = splits.map((chunk) => {
+  let result = splits.map((chunk) => {
     if (Math.random() < howMuchCapslock && (chunk.length > 2 || howMuchCapslock > 0.6)) {
       return chunk.toUpperCase();
     } else {
