@@ -1,7 +1,6 @@
-(function () {
 
 // some random hates found on the internets
-var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , pivo a klobásku bych jim povině dal všem snízt. ',
+let other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , pivo a klobásku bych jim povině dal všem snízt. ',
   ' to by se za komunistů stát nemohlo, zlatý komunisti!!!!',
   ' republiku si  rozvracet nenecháme ',
   ' a média a česká televize mlčí',
@@ -75,7 +74,7 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   '..........mělo by se objasnit, jak to vlastně všechno bylo.....',
   ' Hehehe,natrtkalisi ,ať se starají.'];
 
-var goodGuysSentences = [
+let goodGuysSentences = [
   ' politice sice moc nerozumím ale ten {0} je dobrý, ten by tam aspoň udělal pořádek .',
   ' {0} chce aby jsme mohly bránit naší zemy.',
   ' {0} to mislí upřímně.',
@@ -87,7 +86,7 @@ var goodGuysSentences = [
 ];
 
 // male only
-var badGuysSentencesSingular = [
+let badGuysSentencesSingular = [
   ' Ten {0} už fakt neví jak by na sebe upozornil ,ten terorystický útok v Menčestru je určitě jeho práce, říkal mi to známý, co dělá na policii!V televizi zase nic!',
   // https://www.novinky.cz/diskuse?id=486570&articleId=/domaci/438651-sprosty-vrah-slusnemu-cloveku-je-nevolno-reagoval-kalousek-na-milost-pro-kajinka.html&sectionId=8&page=2
   ' Jak múže mít tahle žumpa pomluv a nadávak {0} takový prostor k šíření svých bludů ? Kdo ho ještě podporuje ?Už aby byly volby !',
@@ -95,7 +94,7 @@ var badGuysSentencesSingular = [
   ' {0} by asi potřeboval abyho ti negři imigrantský vzali pěkně zezadu abyje přestal hájit.....'
 ];
 
-var badGuysSentencesPlural = [
+let badGuysSentencesPlural = [
   ' za všechno můžou {0} a {1} .',
   'Exystuje tajný plán , který vytvořili {0} a {1} a teď se to všechno děje otevřete už konečně oči ',
   '{0} a {1} stejně pořád jenom okrádají stát a slušné pracující lidi.',
@@ -111,19 +110,19 @@ var badGuysSentencesPlural = [
   'Jinak včera jsem se díval na oblohu a bila tam velká dávka chemtrails větši nez obvikle můžou za to {1} a Kalousek!!!!!!'
 ];
 
-var goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Zeman', 'pan prezident', 'Okamura', 'pan Konvička',
+const goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Zeman', 'pan prezident', 'Okamura', 'pan Konvička',
    'pan president Putin', 'Putin', 'Ortel', 'prezident Trump', 'Adam B. Bartoš', 'SPD', 'KSČM'];
 
-var badGuysGuys = ['Sobotka', 'vlastizrádce Sobotka', 'Kalous', 'Diensbier', 'Horáček', 'Obama', 'zmrd Kalousek',
+const badGuysGuys = ['Sobotka', 'vlastizrádce Sobotka', 'Kalous', 'Diensbier', 'Horáček', 'Obama', 'zmrd Kalousek',
    'Moravec', 'Kocáb'];
 
-var otherBadGuys = ['Sobotka', 'vlastizrádce Sobotka', 'sluničkári', 'prohavlovská pakaž', 'kolaboranti', 'muslimáci',
+const otherBadGuys = ['Sobotka', 'vlastizrádce Sobotka', 'sluničkári', 'prohavlovská pakaž', 'kolaboranti', 'muslimáci',
  'Kalousek', 'fašisti na ukrajine', 'havloidi', 'birokrati z EU', 'Diensbier', 'Horáček', 'Obama', 'eurofanatici',
  'makrela', 'zmrd Kalousek', 'Merkelova', 'nadnárodni elity', 'pražská kavárna', 'novinářská žumpa',
  'iluminati', 'USA ambasáda', 'CIA', 'korporace', 'diktát z EU', 'islám', 'cigani', 'Moravec', 'Kocáb'];
 
-var otherThingsWorthHating = ['integrací', 'eurofederalizací', 'diskriminací', 'emancipací', 'eurofašizací', 'inkluzí', 'globalizací'];
-var otherThingsWorthHatingSentences = [
+const otherThingsWorthHating = ['integrací', 'eurofederalizací', 'diskriminací', 'emancipací', 'eurofašizací', 'inkluzí', 'globalizací'];
+let otherThingsWorthHatingSentences = [
   ' ať jdou s tou {0} už do PRDELE!',
   ' s {0} ať si jdou demonstrovat do Bruselu......',
   ' jako nic proti lidským právům, ale s tou {0} to je slepá ulička..',
@@ -131,7 +130,7 @@ var otherThingsWorthHatingSentences = [
   ' Neziskovky tu zaplavují médija s {0} a mezitím deseti1000íce přivandrovalců se sem mlčky hrne!!'
 ];
 
-var randomBullshit = [
+let randomBullshit = [
   // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   ' JÁ TU STÁLE PSAL , PROPUSTIT A ŘÁDNĚ ODŠKODNIT, NIC NEUDĚLAL A MNOHO ODBORNÍKŮ TADY SE DO MĚ POUŠTĚLO , NEUDĚL A PRÁVEM JE NA SVOBODĚ , KDO ZNÁ NAŠE SOUDY , TAK TO POCHOPÍ !!!!!!!!',
   // https://www.novinky.cz/diskuse?id=486570&articleId=/domaci/438651-sprosty-vrah-slusnemu-cloveku-je-nevolno-reagoval-kalousek-na-milost-pro-kajinka.html&sectionId=8&page=3
@@ -147,7 +146,7 @@ var randomBullshit = [
   // diskutujici na https://www.facebook.com/KonvaMartin/
   ' V pripade Davida Cerneho ve skutecnosti se o zadneho umelce nejedna. Je to obycejna moralni zruda, parazit a vyzirka penez danovych poplatniku. Typicky slunickarsky zlocinec...',
   //https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
-  ' Jirko,přeju Ti klidný život,bez dotěrných lidí a novinářů.. ❤ Ty pro mě NIKDY nebudeš vrahem!Vrahem pro mě vždy bude ten,,druhý!!kvůli kterému tě justice nespravedlivě okradla o 23 let života :-* ',
+  ' Jirko,přeju Ti klidný život,bez dotěrných lidí a novinářů.. ❤ Ty pro mě NIKDY nebudeš vrahem!Vrahem pro mě vždy bude ten ,,druhý" kvůli kterému tě justice nespravedlivě okradla o 23 let života :-* ',
   //https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   ' Pane Kájínek pravda se ukázala trvale opálený bez mozku nemá co svědčit ale veledůložitá věc je že jste uvolnil zásluhou pana prezidenta místo v base panu premierovy sobotkovi. Díky.',
   //https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
@@ -155,87 +154,66 @@ var randomBullshit = [
 ];
 
 // monkey patch the formatting function into strings
- String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
- function () {
-   "use strict";
-   var str = this.toString();
+ String.prototype.formatUnicorn = String.prototype.formatUnicorn || function () {
+   'use strict';
+   let str = this.toString();
    if (arguments.length) {
-     var t = typeof arguments[0];
-     var key;
-     var args = ("string" === t || "number" === t) ?
-     Array.prototype.slice.call(arguments)
-     : arguments[0];
+     const t = typeof arguments[0];
+     let key;
+     const args = (t === 'string' || t === 'number') ? Array.prototype.slice.call(arguments) : arguments[0];
 
      for (key in args) {
-       str = str.replace(new RegExp("\\{" + key + "\\}", "gi"), args[key]);
+       str = str.replace(new RegExp('\\{' + key + '\\}', 'gi'), args[key]);
      }
    }
-
    return str;
  };
 
 // randomly use capslock and add some bangs
-function buranize(sentence, howMuchCapslock, howMuchTypos) {
-  var splits = sentence.split(/([\s,.!?]+)/g);
-  var result = splits.map(function (chunk) {
+const buranize = (sentence, howMuchCapslock, howMuchTypos) => {
+  const splits = sentence.split(/([\s,.!?]+)/g);
+  const result = splits.map((chunk) => {
     if (Math.random() < howMuchCapslock && (chunk.length > 2 || howMuchCapslock > 0.6)) {
       return chunk.toUpperCase();
     } else {
       return chunk;
     }
   }).join('');
-  var swearWords = ['KUNDYYY', 'HOVADAAA', 'ŽIDI', 'KOKOTI', 'SVINĚ', 'KOLABORANTI', 'IDIOTI'];
-  var swearWordsLvl2 = ['KURVAAAA', 'PIIIČOO', 'ZMRRRDE', 'JEBAT EU', 'MRDKYYY', 'STŘÍLET MIGRANTY', 'CIGÁNY DO PLYNU'];
+  const swearWords = ['KUNDYYY', 'HOVADAAA', 'ŽIDI', 'KOKOTI', 'SVINĚ', 'KOLABORANTI', 'IDIOTI'];
+  const swearWordsLvl2 = ['KURVAAAA', 'PIIIČOO', 'ZMRRRDE', 'JEBAT EU', 'MRDKYYY', 'STŘÍLET MIGRANTY', 'CIGÁNY DO PLYNU'];
   if (howMuchCapslock > 0.4) {
     result += '!!!';
   }
   if (howMuchCapslock > 0.6) {
-    var wordLvl1 = swearWords.splice(Math.floor(Math.random() * swearWords.length), 1);
+    const wordLvl1 = swearWords.splice(Math.floor(Math.random() * swearWords.length), 1);
     result += '!! ' + wordLvl1 + '!!!!';
   }
   if (howMuchCapslock > 0.8) {
-    var wordLvl2 = swearWordsLvl2.splice(Math.floor(Math.random() * swearWordsLvl2.length), 1);
+    const wordLvl2 = swearWordsLvl2.splice(Math.floor(Math.random() * swearWordsLvl2.length), 1);
     result += '!!! ' + wordLvl2 + '!!!!!!!!!!!!!!!?!!!!!!';
   }
   return result;
   // todo add random typos
-}
+};
 
-// shuffle the array (w/ plain JS)
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+const GOOD_GUYS_SENTENCE_PROB = 0.09;
+const BAD_GUYS_SENTENCE_PROB = 0.14;
+const OTHER_THINGS_WORTH_HATING_PROB = 0.04;
+const WHOLE_RANDOM_POST_PROB = 0.04;
 
-  // While there remain elements to shuffle...
-  while (currentIndex !== 0) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
+// some helpers
+const makeSentence = (templates, subjects) => {
+  const template = _.sample(templates);
+  _.remove(templates, (elem) => elem === template);
+  if (templates.length === 0) {
+    // if any of the templates is empty, refresh them all
+    restoreTemplates();
   }
+  return template.formatUnicorn(_.shuffle(subjects));
+};
 
-  return array;
-}
-
-function pickRandomElement(array) {
-  return array.splice(Math.floor(Math.random() * array.length), 1)[0];
-}
-
-function makeSentence(templates, subjects) {
-  return pickRandomElement(templates).formatUnicorn(shuffle(subjects));
-}
-
-var GOOD_GUYS_SENTENCE_PROB = 0.09;
-var BAD_GUYS_SENTENCE_PROB = 0.14;
-var OTHER_THINGS_WORTH_HATING_PROB = 0.04;
-var WHOLE_RANDOM_POST_PROB = 0.05;
-
-function getRandomSentence() {
-  var r = Math.random();
-
+const getRandomSentence = () => {
+  const r = Math.random();
   // kolo stesti
   if (r < GOOD_GUYS_SENTENCE_PROB) {
     //goodGuysSentences
@@ -254,50 +232,56 @@ function getRandomSentence() {
     //other (generic sentences)
     return other.splice(Math.floor(Math.random() * other.length), 1);
   }
-}
+};
 
-function getPost(length, capslock) {
-  // length 2 - 5
-  length = length || Math.random() * 3 + 2;
-  capslock = capslock || 0.05;
-  var goodGuysSentencesBak = goodGuysSentences.slice(0);
-  var badGuysSentencesSingularBak = badGuysSentencesSingular.slice(0);
-  var badGuysSentencesPluralBak = badGuysSentencesPlural.slice(0);
-  var otherBak = other.slice(0);
-  var randomBullshitBak = randomBullshit.slice(0);
-  var otherThingsWorthHatingSentencesBak = otherThingsWorthHatingSentences.slice(0);
 
-  var post = '';
-  if (Math.random() < WHOLE_RANDOM_POST_PROB) {
-    post = pickRandomElement(randomBullshit);
-  } else {
-    for (var i = 0; i < length; i++) {
-      post += getRandomSentence();
-    }
-  }
+let goodGuysSentencesBak, badGuysSentencesSingularBak, badGuysSentencesPluralBak, otherBak, randomBullshitBak,
+ otherThingsWorthHatingSentencesBak;
 
+const restoreTemplates = () => {
   goodGuysSentences = goodGuysSentencesBak;
   badGuysSentencesSingular = badGuysSentencesSingularBak;
   badGuysSentencesPlural = badGuysSentencesPluralBak;
   other = otherBak;
   randomBullshit = randomBullshitBak;
   otherThingsWorthHatingSentences = otherThingsWorthHatingSentencesBak;
+  backupTemplates();
+};
+
+const backupTemplates = () => {
+  goodGuysSentencesBak = _.clone(goodGuysSentences);
+  badGuysSentencesSingularBak = _.clone(badGuysSentencesSingular);
+  badGuysSentencesPluralBak = _.clone(badGuysSentencesPlural);
+  otherBak = _.clone(other);
+  randomBullshitBak = _.clone(randomBullshit);
+  otherThingsWorthHatingSentencesBak = _.clone(otherThingsWorthHatingSentences);
+};
+
+backupTemplates();
+
+const getPost = (length, capslock) => {
+  // length 2 - 5
+  length = length || Math.random() * 3 + 2;
+  capslock = capslock || 0.05;
+
+  let post = '';
+  if (Math.random() < WHOLE_RANDOM_POST_PROB) {
+    post = _.sample(randomBullshit);
+  } else {
+    for (let i = 0; i < length; i++) {
+      post += getRandomSentence();
+    }
+  }
 
   return buranize(post, capslock);
-}
+};
 
-function generatePost() {
-  var rage = parseInt(document.getElementById('rageFactor').value) / 12;
-  var post = getPost(undefined, rage);
+const generatePost = () => {
+  const rage = parseInt(document.getElementById('rageFactor').value) / 12;
+  const post = getPost(undefined, rage);
   document.getElementById('post').innerHTML = '';
   document.getElementById('post').insertAdjacentHTML('afterbegin', post);
-}
+};
 
 // hacky export, but let's keep it simple
 window.generatePost = generatePost;
-window.otherThingsWorthHatingSentences = otherThingsWorthHatingSentences;
-
-return {
-  getPost: getPost
-};
-})();
