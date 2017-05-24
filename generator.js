@@ -72,6 +72,10 @@ let other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' Tahle fotka.......zvracení, jen zvracení vyvolává....',
   // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   '..........mělo by se objasnit, jak to vlastně všechno bylo.....',
+  // https://www.facebook.com/photo.php?fbid=1541771782502766&set=p.1541771782502766
+  ' Ludvík má pravdu. Co nám vlastně kapitalismus dává? Teroristy, teplouše, žebráky, bezdomovce, možná se dočkáme i války. To je ten váš kapitalismus. ',
+  // https://www.facebook.com/photo.php?fbid=1541772429169368&set=p.1541772429169368
+  ' Tento havloidní exkrement je stejná nula jako Trotelfanof...škoda tyto zaprodané kreatury číst. ',
   ' Hehehe,natrtkalisi ,ať se starají.'];
 
 let goodGuysSentences = [
@@ -145,12 +149,14 @@ let randomBullshit = [
   ' Seš jet tupej cikán Bango....A nic víc!!!Sere tě ze se český národ spojil proti dementum jako jsi ty a podobní...běž zase krást kola a vykrádat sklepy cikáne... :-) :-) :-)',
   // diskutujici na https://www.facebook.com/KonvaMartin/
   ' V pripade Davida Cerneho ve skutecnosti se o zadneho umelce nejedna. Je to obycejna moralni zruda, parazit a vyzirka penez danovych poplatniku. Typicky slunickarsky zlocinec...',
-  //https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
+  // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   ' Jirko,přeju Ti klidný život,bez dotěrných lidí a novinářů.. ❤ Ty pro mě NIKDY nebudeš vrahem!Vrahem pro mě vždy bude ten ,,druhý" kvůli kterému tě justice nespravedlivě okradla o 23 let života :-* ',
-  //https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
+  // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   ' Pane Kájínek pravda se ukázala trvale opálený bez mozku nemá co svědčit ale veledůložitá věc je že jste uvolnil zásluhou pana prezidenta místo v base panu premierovy sobotkovi. Díky.',
-  //https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
-  ' Vítej na svobodě Jirko a dej na sebe pozor .Mám velké obavy ,že Tě demokrati připraví o život a nebo dostanou zpátky do krymu nějakou vykonstruovanou provokací. '
+  // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
+  ' Vítej na svobodě Jirko a dej na sebe pozor .Mám velké obavy ,že Tě demokrati připraví o život a nebo dostanou zpátky do krymu nějakou vykonstruovanou provokací. ',
+  // https://www.facebook.com/idiotiznovinek/photos/a.453323448178435.1073741827.453323164845130/780609212116522/?type=3&theater
+  '"PUSSYNA" MERKELOVA si může na pažbu vyrýt dalších jak 20 zářezů za mrtvé náctileté děti :-((( Proboha,kdyuž jí veřejně někdo odsoudí a přinejmenším doživotně zavře za VLASTIZRADU nejen NEMECKA ale především celé EVROPY !!!!'
 ];
 
 // monkey patch the formatting function into strings
