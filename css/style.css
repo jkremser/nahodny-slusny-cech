@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('Raleway.css');
 
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
