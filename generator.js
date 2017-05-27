@@ -284,6 +284,24 @@ var getPost = function (length, capslock) {
   return buranize(post, capslock);
 };
 
+function changeBackground () {
+  var rage = parseInt(document.getElementById('rageFactor').value);
+  var colors = ['#242', '#330', '#440', '#540', '#640', '#630', '#730',
+                '#720', '#830', '#820', '#a20'];
+  var color = colors[rage];
+  document.body.style.background = color;
+  var elem = document.getElementById('postButton');
+  elem.className = 'shake myButton';
+  if (rage === 9) {
+    elem.className = 'shake-little myButton';
+  } else if (rage === 10) {
+    elem.className = 'shake myButton';
+  } else {
+    elem.className = 'myButton';
+  }
+  document.getElementById('rageFactor').style.background = color;
+}
+
 var generatePost = function () {
   var rage = parseInt(document.getElementById('rageFactor').value) / 12;
   var post = getPost(undefined, rage);
@@ -293,3 +311,4 @@ var generatePost = function () {
 
 // hacky export, but let's keep it simple
 window.generatePost = generatePost;
+window.changeBackground = changeBackground;
