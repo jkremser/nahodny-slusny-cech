@@ -84,7 +84,7 @@ body {
    border-radius:10px;
    background-color:#ddd;
    color: #333;
-   box-shadow:1px 1px 5px rgba(0,0,0,.2);
+   box-shadow:10px 10px 5px rgba(0,0,0,.2);
 }
 
 a {
@@ -97,11 +97,109 @@ a:hover {
 }
 
 .container {
-  width: 960px;
   margin: 0 auto;
-  padding: 0 0.5em 0.5em 0.5em;
+  padding: 0 0.5em 0.5em 13.5em;
 }
 
+@media only screen and (max-width: 710px) {
+  body {
+    max-width: 480px
+    width: auto !important;
+  }
+
+	.myButton {
+		padding: 14px 36px !important;
+	}
+
+	input[type=range] {
+		width: 250px !important;
+	}
+
+  .container {
+		padding: 0 0.5em 0.5em 6.5em !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+	input[type=range] {
+		width: 220px !important;
+	}
+
+  .container {
+		padding: 0 0.5em 0.5em 3.5em !important;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+	input[type=range] {
+		width: 200px !important;
+	}
+
+	.bubble-content {
+		width: 350px !important
+	}
+
+  .container {
+		padding: 0 0.5em 0.5em 0.5em !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+	input[type=range] {
+		width: 180px !important;
+	}
+
+	.bubble-content {
+		width: 300px !important
+	}
+
+  .container {
+		padding: 0 0.5em 0.5em 0.5em !important;
+  }
+
+	.footer {
+		padding: 0.4px !important;
+		font-size: 17px !important;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	input[type=range] {
+		width: 160px !important;
+	}
+
+	.bubble-content {
+		width: 250px !important
+	}
+
+  .container {
+		padding: 0 0.5em 0.5em 0.5em !important;
+  }
+
+	.footer {
+		padding: 0.3px !important;
+		font-size: 16px !important;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	input[type=range] {
+		width: 140px !important;
+	}
+
+	.bubble-content {
+		width: 235px !important
+	}
+
+  .container {
+		padding: 0 0.5em 0.5em 0.5em !important;
+  }
+
+	.footer {
+		padding: 0 !important;
+		font-size: 13px !important;
+	}
+}
 
 input[type=range] {
   -webkit-appearance: none;
