@@ -287,7 +287,7 @@ var getPost = function (length, capslock) {
 function changeBackground () {
   var rage = parseInt(document.getElementById('rageFactor').value);
   var colors = ['#242', '#330', '#440', '#540', '#640', '#630', '#730',
-                '#720', '#830', '#820', '#a20'];
+                '#830', '#720', '#820', '#a20'];
   var color = colors[rage];
   document.body.style.background = color;
   var elem = document.getElementById('postButton');
