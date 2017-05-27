@@ -302,6 +302,13 @@ function changeBackground () {
   document.getElementById('rageFactor').style.background = color;
 }
 
+var onLoad = function () {
+  setTimeout(function () {
+    document.getElementsByTagName('body')[0].className = '';
+    document.getElementById('rageFactor').className = '';
+  }, 1000);
+};
+
 var generatePost = function () {
   var rage = parseInt(document.getElementById('rageFactor').value) / 12;
   var post = getPost(undefined, rage);
@@ -313,3 +320,5 @@ var generatePost = function () {
 // hacky export, but let's keep it simple
 window.generatePost = generatePost;
 window.changeBackground = changeBackground;
+
+window.addEventListener('DOMContentLoaded', onLoad, false);
