@@ -305,6 +305,7 @@ function changeBackground () {
 var generatePost = function () {
   var rage = parseInt(document.getElementById('rageFactor').value) / 12;
   var post = getPost(undefined, rage);
+  document.getElementById('post').style.padding = '8px 20px';
   document.getElementById('post').innerHTML = '';
   document.getElementById('post').insertAdjacentHTML('afterbegin', post);
 };
