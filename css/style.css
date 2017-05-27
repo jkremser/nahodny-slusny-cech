@@ -74,6 +74,9 @@ body {
   background: #333300;
   line-height: 1.6;
 	margin-bottom: 50px;
+	-webkit-transition: background-color 1500ms linear;
+  -ms-transition: background-color 1500ms linear;
+  transition: background-color 1500ms linear;
 }
 
 .bubble-content {
