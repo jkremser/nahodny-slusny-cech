@@ -76,7 +76,8 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' Ludvík má pravdu. Co nám vlastně kapitalismus dává? Teroristy, teplouše, žebráky, bezdomovce, možná se dočkáme i války. To je ten váš kapitalismus. ',
   // https://www.facebook.com/photo.php?fbid=1541772429169368&set=p.1541772429169368
   ' Tento havloidní exkrement je stejná nula jako Trotelfanof...škoda tyto zaprodané kreatury číst. ',
-  ' Hehehe,natrtkalisi ,ať se starají.'];
+  ' Hehehe,natrtkalisi ,ať se starají.',
+  ' Však on  s nimi pan OKAMURA zatočí !!'];
 
 var goodGuysSentences = [
   ' politice sice moc nerozumím ale ten {0} je dobrý, ten by tam aspoň udělal pořádek .',
