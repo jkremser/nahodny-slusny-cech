@@ -16,6 +16,8 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   'Stejně tak jako USA  nebyly nikdy na měsícy ,tak media mlčí o te velké pravdě o imigrantech ',
   ' je to všechno naplánované kvůli new world order(NWO).',
   ' Otevřete už konecně oči, vy tupé ovce! !',
+  ' postavil bych plot na hranicích a bylo by to vyřešené ',
+  ' musime chránit naše hranice a hodnoty ',
   ' jinak já jsem hrdý na naše hodnoty, co si dokázal ty ty havlomrde jeden,kurvo ?  ',
   ' mymochodem Ortel zpíva jenom pravdu jako Kryl a toho slavíka si přístě snad odnese a toho cigána by měli zavřít někam do zoo .',
   ' Snad bude MÉNĚ PŘIVANDROVALCŮ JESTLI MI ROZUMÍTE??!!!',
@@ -25,6 +27,9 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' aspoň že ti naši hokejisti něco hrajou, kuci jedni naši,my jsi dyktovat z EU NEDÁME !!',
   '. Pan   prezident  je dobrý člověk,proto média lžou  ',
   ' už to psali i v parlamentních listech ',
+  ' Kdyby dal každý Čech třeba jen 100 výček,mohly bysme postavit plot a chránit naše hranice,aha? ',
+  ' Nechci zabrušovat, abych nemusel vybrušovat, ale ',
+  ' Určitě možná s vámi tak úplně nesouhlasím ',
   ' lidi probuďte se už konečně kam až to necháme zajít?!',
   ' svrhněme tuto prohnilou vládu a nastolme vládu pracujícího lidu!!!!!',
   ' tohle už je snad horší než ten negr  v bile ',
@@ -35,6 +40,7 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' a co má jako znamenat ten černoch na letáku???',
   ' a běžte s multi-kulti do prdele!!',
   ' čechy čechům!!!!',
+  ' říkal to i známý co dělá u Policie CR ',
   ' Něco se děje ,dneska u nas byl velky chemtrails, nahoda? ',
   'Odstraňte ty multikulty pičoviny!',
   ' protože zatím ještě platí že mi tady jsme doma a ne ti paraziti...',
@@ -119,12 +125,13 @@ var goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Zeman', 'pan
    'pan president Putin', 'Putin', 'Ortel', 'prezident Trump', 'Adam B. Bartoš', 'SPD', 'KSČM'];
 
 var badGuysGuys = ['Sobotka', 'vlastizrádce Sobotka', 'Kalous', 'Diensbier', 'Horáček', 'Obama', 'zmrd Kalousek',
-   'Moravec', 'Kocáb'];
+   'Moravec', 'Kocáb', 'Drahoš', 'Ferri'];
 
 var otherBadGuys = ['Sobotka', 'vlastizrádce Sobotka', 'sluničkári', 'prohavlovská pakaž', 'kolaboranti', 'muslimáci',
  'Kalousek', 'fašisti na ukrajine', 'havloidi', 'birokrati z EU', 'Diensbier', 'Horáček', 'Obama', 'eurofanatici',
- 'makrela', 'zmrd Kalousek', 'Merkelova', 'nadnárodni elity', 'pražská kavárna', 'novinářská žumpa',
- 'iluminati', 'USA ambasáda', 'CIA', 'korporace', 'diktát z EU', 'islám', 'cigani', 'Moravec', 'Kocáb'];
+ 'makrela', 'zmrd Kalousek', 'Merkelova', 'nadnárodni elity', 'pražská kavárna', 'novinářská žumpa', 'eurohujeři',
+ 'iluminati', 'USA ambasáda', 'CIA', 'korporace', 'diktát z EU', 'islám', 'cigani', 'cikáni', 'romove', 'Moravec',
+ 'Kocáb', 'vítači', 'zelený mozky'];
 
 var otherThingsWorthHating = ['integrací', 'eurofederalizací', 'diskriminací', 'emancipací', 'eurofašizací', 'inkluzí', 'globalizací'];
 var otherThingsWorthHatingSentences = [
@@ -151,11 +158,7 @@ var randomBullshit = [
   // diskutujici na https://www.facebook.com/KonvaMartin/
   ' V pripade Davida Cerneho ve skutecnosti se o zadneho umelce nejedna. Je to obycejna moralni zruda, parazit a vyzirka penez danovych poplatniku. Typicky slunickarsky zlocinec...',
   // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
-  ' Jirko,přeju Ti klidný život,bez dotěrných lidí a novinářů.. ❤ Ty pro mě NIKDY nebudeš vrahem!Vrahem pro mě vždy bude ten ,,druhý" kvůli kterému tě justice nespravedlivě okradla o 23 let života :-* ',
-  // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   ' Pane Kájínek pravda se ukázala trvale opálený bez mozku nemá co svědčit ale veledůložitá věc je že jste uvolnil zásluhou pana prezidenta místo v base panu premierovy sobotkovi. Díky.',
-  // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
-  ' Vítej na svobodě Jirko a dej na sebe pozor .Mám velké obavy ,že Tě demokrati připraví o život a nebo dostanou zpátky do krymu nějakou vykonstruovanou provokací. ',
   // https://www.facebook.com/idiotiznovinek/photos/a.453323448178435.1073741827.453323164845130/780609212116522/?type=3&theater
   '"PUSSYNA" MERKELOVA si může na pažbu vyrýt dalších jak 20 zářezů za mrtvé náctileté děti :-((( Proboha,kdyuž jí veřejně někdo odsoudí a přinejmenším doživotně zavře za VLASTIZRADU nejen NEMECKA ale především celé EVROPY !!!!'
 ];
