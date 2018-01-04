@@ -1,6 +1,7 @@
 
 // some random hates found on the internets
 var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , pivo a klobásku bych jim povině dal všem snízt. ',
+  ' Asi normálni lednové počasí!Kdysi mrzlo až praštělo, ale nyní vše do noty migrantů,potažmo obtěžovatelů a vrahů......nový svět povstává!!! ',
   ' to by se za komunistů stát nemohlo, zlatý komunisti!!!!',
   ' republiku si  rozvracet nenecháme ',
   ' a média a česká televize mlčí',
