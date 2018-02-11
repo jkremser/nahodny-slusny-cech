@@ -38,6 +38,7 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' kdyby ty cikorky pracovaly,tagby tohle nebylo!',
   ' ..šulini jedni,ať táhnou někam jinam ',
   ' zapalte ohně ',
+  ' do ulic ',
   ' a co má jako znamenat ten černoch na letáku???',
   ' a běžte s multi-kulti do prdele!!',
   ' čechy čechům!!!!',
@@ -84,6 +85,8 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   // https://www.facebook.com/photo.php?fbid=1541772429169368&set=p.1541772429169368
   ' Tento havloidní exkrement je stejná nula jako Trotelfanof...škoda tyto zaprodané kreatury číst. ',
   ' Hehehe,natrtkalisi ,ať se starají.',
+  // Nejaky takovy moudro jsem cetl kdesi na idnesu
+  ' V letech to nebyl žadnej koncentrák, tam jenom museli hodně pracovat, a protože na to ty cikani nebyly zvikly tak chcipali.',
   ' Však on  s nimi pan OKAMURA zatočí !!'];
 
 var goodGuysSentences = [
@@ -122,17 +125,17 @@ var badGuysSentencesPlural = [
   'Jinak včera jsem se díval na oblohu a bila tam velká dávka chemtrails větši nez obvikle můžou za to {1} a Kalousek!!!!!!'
 ];
 
-var goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Zeman', 'pan prezident', 'Okamura', 'pan Konvička',
-   'pan president Putin', 'Putin', 'Ortel', 'prezident Trump', 'Adam B. Bartoš', 'SPD', 'KSČM'];
+var goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Ovčáček', 'Zeman', 'pan prezident', 'Tomio', 'Okamura', 'pan Konvička',
+   'pan president Putin', 'Putin', 'Ortel', 'prezident Trump', 'Adam B. Bartoš', 'SPD', 'KSČM', 'Míla Rozner', 'Rozner'];
 
 var badGuysGuys = ['Sobotka', 'vlastizrádce Sobotka', 'Kalous', 'Diensbier', 'Horáček', 'Obama', 'zmrd Kalousek',
    'Moravec', 'Kocáb', 'Drahoš', 'Ferri'];
 
 var otherBadGuys = ['Sobotka', 'vlastizrádce Sobotka', 'sluničkári', 'prohavlovská pakaž', 'kolaboranti', 'muslimáci',
  'Kalousek', 'fašisti na ukrajine', 'havloidi', 'birokrati z EU', 'Diensbier', 'Horáček', 'Obama', 'eurofanatici',
- 'makrela', 'zmrd Kalousek', 'Merkelova', 'nadnárodni elity', 'pražská kavárna', 'novinářská žumpa', 'eurohujeři',
+ 'makrela', 'zmrd Kalousek', 'Merkleova', 'Merkelova', 'nadnárodni elity', 'pražská kavárna', 'novinářská žumpa', 'eurohujeři',
  'iluminati', 'USA ambasáda', 'CIA', 'korporace', 'diktát z EU', 'islám', 'cigani', 'cikáni', 'romove', 'Moravec',
- 'Kocáb', 'vítači', 'zelený mozky'];
+ 'Kocáb', 'vítači', 'zelený mozky', 'Fery', 'Ferri'];
 
 var otherThingsWorthHating = ['integrací', 'eurofederalizací', 'diskriminací', 'emancipací', 'eurofašizací', 'inkluzí', 'globalizací'];
 var otherThingsWorthHatingSentences = [
