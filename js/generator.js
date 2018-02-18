@@ -12,9 +12,9 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' a vyrešilo byse to kdy by byl Ortel na hradu ',
   ' známá  z německa říkala, že  vůbec nepracujou a  jenom pořád berou dávky ',
   ' a nejhorší jsou ti užitecní idioti co by nejrači pozvali všechny ty muslimské teroristy.kdybysme jeli mi k nim,tak nás odstřelí hned všechny v moři!!',
-  'Čina a Rusko jsou aspoň pro tuto zemy přínos ,což se o těch agentech CIA říct nedá !!!',
-  '1000íce migrantů nám chce brát naše hodnoty,musíme chránit naše hranice!!!  ',
-  'Stejně tak jako USA  nebyly nikdy na měsícy ,tak media mlčí o te velké pravdě o imigrantech ',
+  ' Čina a Rusko jsou aspoň pro tuto zemy přínos ,což se o těch agentech CIA říct nedá !!!',
+  ' 1000íce migrantů nám chce brát naše hodnoty,musíme chránit naše hranice!!!  ',
+  ' Stejně tak jako USA  nebyly nikdy na měsícy ,tak media mlčí o te velké pravdě o imigrantech ',
   ' je to všechno naplánované kvůli new world order(NWO).',
   ' Otevřete už konecně oči, vy tupé ovce! !',
   ' postavil bych plot na hranicích a bylo by to vyřešené ',
@@ -44,7 +44,7 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' čechy čechům!!!!',
   ' říkal to i známý co dělá u Policie CR ',
   ' Něco se děje ,dneska u nas byl velky chemtrails, nahoda? ',
-  'Odstraňte ty multikulty pičoviny!',
+  ' Odstraňte ty multikulty pičoviny!',
   ' protože zatím ještě platí že mi tady jsme doma a ne ti paraziti...',
   // https://cloudia.hnonline.sk/r750xn/69736144bf4883c2918fde44d428cdc0.jpg
   ' je to řízena genocida bíle rasy ',
@@ -88,7 +88,7 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   // Nejaky takovy moudro jsem cetl kdesi na idnesu
   ' V letech to nebyl žadnej koncentrák, tam jenom museli hodně pracovat, a protože na to ty cikani nebyly zvikly tak chcipali.',
   // Klenot z komentaru na Babisove strance
-  'Doufám že to brzy vezme do ruky Tomio Okamura a vytře s Váma se všema! Raději Komunisty co plní vůli lidu, než takové EURO lokaje co lížou Merkel bábě ŘIŤ !!! :(',
+  ' Doufám že to brzy vezme do ruky Tomio Okamura a vytře s Váma se všema! Raději Komunisty co plní vůli lidu, než takové EURO lokaje co lížou Merkel bábě ŘIŤ !!! :(',
   ' Však on  s nimi pan OKAMURA zatočí !!'];
 
 var goodGuysSentences = [
@@ -113,18 +113,18 @@ var badGuysSentencesSingular = [
 
 var badGuysSentencesPlural = [
   ' za všechno můžou {0} a {1} .',
-  'Exystuje tajný plán , který vytvořili {0} a {1} a teď se to všechno děje otevřete už konečně oči ',
-  '{0} a {1} stejně pořád jenom okrádají stát a slušné pracující lidi.',
-  '{0} do plynu!!!!',
+  ' Exystuje tajný plán , který vytvořili {0} a {1} a teď se to všechno děje otevřete už konečně oči ',
+  ' {0} a {1} stejně pořád jenom okrádají stát a slušné pracující lidi.',
+  ' {0} do plynu!!!!',
   ' ,proto ze tohle jsou veci bez kterych by tato republika fungovala: {0} a {1} ',
   ' je to jednoduché.. {0}? Měl bych řešení - vyhostit do afriky!!!!',
-  'Je to přece uplně jasné že korporace a {1} chcou aby jste si to tak misleli .',
-  'Naše celá vláda i celá EU jsou jenom loutky , otevřete už ty oči ,vždyť i {0} ,{1} nebo {2}, všichni nám jen lžou ',
+  ' Je to přece uplně jasné že korporace a {1} chcou aby jste si to tak misleli .',
+  ' Naše celá vláda i celá EU jsou jenom loutky , otevřete už ty oči ,vždyť i {0} ,{1} nebo {2}, všichni nám jen lžou ',
   ' Vždyť když jsou tak mladí a mají na mobilní  telefon tak přece můžou i jít bojovat za svoji zemi to jenom {0} a {1} říkaji ,že jich je tady jenom málo,ale to se zmnění.',
-  '{0} a {1} nemusí pracovat a můžou dostávat dávky a my na naše děti musíme jenom zbírat výčka, aby byly zdravé,pro tohle jsem klíčema necinkal  zlatí komunisti!!! ! ',
-  '{0}, {1} ,{2} ale i {3} by mněly jít všichni raději někam do afriky, nebo rovnou do koncentraku a byl by už konečně klid .',
-  'Přece nechceme aby slušní lidi musely platit  jenom daně a hubu jak ovce a {0}, {1}, {2} aspol. pořád jenom kradli tohle už ne!!!  ',
-  'Jinak včera jsem se díval na oblohu a bila tam velká dávka chemtrails větši nez obvikle můžou za to {1} a Kalousek!!!!!!'
+  ' {0} a {1} nemusí pracovat a můžou dostávat dávky a my na naše děti musíme jenom zbírat výčka, aby byly zdravé,pro tohle jsem klíčema necinkal  zlatí komunisti!!! ! ',
+  ' {0}, {1} ,{2} ale i {3} by mněly jít všichni raději někam do afriky, nebo rovnou do koncentraku a byl by už konečně klid .',
+  ' Přece nechceme aby slušní lidi musely platit  jenom daně a hubu jak ovce a {0}, {1}, {2} aspol. pořád jenom kradli tohle už ne!!!  ',
+  ' Jinak včera jsem se díval na oblohu a bila tam velká dávka chemtrails větši nez obvikle můžou za to {1} a Kalousek!!!!!!'
 ];
 
 var goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Ovčáček', 'Zeman', 'pan prezident', 'Tomio', 'Okamura', 'pan Konvička',
@@ -166,7 +166,7 @@ var randomBullshit = [
   // https://www.novinky.cz/diskuse?id=486596&articleId=/domaci/438673-prvni-rozhovor-s-kajinkem-citim-se-svobodny-pujdu-na-karluv-most.html&sectionId=8
   ' Pane Kájínek pravda se ukázala trvale opálený bez mozku nemá co svědčit ale veledůložitá věc je že jste uvolnil zásluhou pana prezidenta místo v base panu premierovy sobotkovi. Díky.',
   // https://www.facebook.com/idiotiznovinek/photos/a.453323448178435.1073741827.453323164845130/780609212116522/?type=3&theater
-  '"PUSSYNA" MERKELOVA si může na pažbu vyrýt dalších jak 20 zářezů za mrtvé náctileté děti :-((( Proboha,kdyuž jí veřejně někdo odsoudí a přinejmenším doživotně zavře za VLASTIZRADU nejen NEMECKA ale především celé EVROPY !!!!'
+  ' "PUSSYNA" MERKELOVA si může na pažbu vyrýt dalších jak 20 zářezů za mrtvé náctileté děti :-((( Proboha,kdyuž jí veřejně někdo odsoudí a přinejmenším doživotně zavře za VLASTIZRADU nejen NEMECKA ale především celé EVROPY !!!!'
 ];
 
 // monkey patch the formatting function into strings
