@@ -87,6 +87,8 @@ var other = ['Přece  nám nebudou říkat jestli máme mít právo šaria , piv
   ' Hehehe,natrtkalisi ,ať se starají.',
   // Nejaky takovy moudro jsem cetl kdesi na idnesu
   ' V letech to nebyl žadnej koncentrák, tam jenom museli hodně pracovat, a protože na to ty cikani nebyly zvikly tak chcipali.',
+  // Klenot z komentaru na Babisove strance
+  'Doufám že to brzy vezme do ruky Tomio Okamura a vytře s Váma se všema! Raději Komunisty co plní vůli lidu, než takové EURO lokaje co lížou Merkel bábě ŘIŤ !!! :(',
   ' Však on  s nimi pan OKAMURA zatočí !!'];
 
 var goodGuysSentences = [
