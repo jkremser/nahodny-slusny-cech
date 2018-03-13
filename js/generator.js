@@ -131,13 +131,13 @@ var goodGuys = ['pan Babiš', 'Babiš', 'pan mluvčí Ovčáček', 'Ovčáček',
    'pan president Putin', 'Putin', 'Ortel', 'prezident Trump', 'Adam B. Bartoš', 'SPD', 'KSČM', 'Míla Rozner', 'Rozner'];
 
 var badGuysGuys = ['Sobotka', 'vlastizrádce Sobotka', 'Kalous', 'Diensbier', 'Horáček', 'Obama', 'zmrd Kalousek',
-   'Moravec', 'Kocáb', 'Drahoš', 'Ferri'];
+   'Moravec', 'Kocáb', 'Drahoš', 'Ferri', 'tunelář Bakala'];
 
 var otherBadGuys = ['Sobotka', 'vlastizrádce Sobotka', 'sluničkári', 'prohavlovská pakaž', 'kolaboranti', 'muslimáci',
  'Kalousek', 'fašisti na ukrajine', 'havloidi', 'birokrati z EU', 'Diensbier', 'Horáček', 'Obama', 'eurofanatici',
  'makrela', 'zmrd Kalousek', 'Merkleova', 'Merkelova', 'nadnárodni elity', 'pražská kavárna', 'novinářská žumpa', 'eurohujeři',
  'iluminati', 'USA ambasáda', 'CIA', 'korporace', 'diktát z EU', 'islám', 'cigani', 'cikáni', 'romove', 'Moravec',
- 'Kocáb', 'vítači', 'zelený mozky', 'Fery', 'Ferri'];
+ 'Kocáb', 'vítači', 'zelený mozky', 'Fery', 'Ferri', 'dyktat', 'Bakala', 'tunelář Bakala', 'česká televize'];
 
 var otherThingsWorthHating = ['integrací', 'eurofederalizací', 'diskriminací', 'emancipací', 'eurofašizací', 'inkluzí', 'globalizací'];
 var otherThingsWorthHatingSentences = [
