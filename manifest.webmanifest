@@ -1,0 +1,9 @@
+{
+  "name": "Nahodný Slušný Čech",
+  "short_name": "SlušnoČech",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#333300",
+  "description": "Random generator of hate comments.",
+  "icons": []
+}
