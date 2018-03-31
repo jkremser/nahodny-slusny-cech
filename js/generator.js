@@ -309,6 +309,10 @@ function changeBackground () {
   } else {
     elem.className = 'myButton';
   }
+  document.styleSheets[0].deleteRule(0);
+  document.styleSheets[0].deleteRule(0);
+  document.styleSheets[0].insertRule('::selection { background: ' + color + '4; }')
+  document.styleSheets[0].insertRule('::-moz-selection { background-color: ' + color + '4; }')
   document.getElementById('rageFactor').style.background = color;
 }
 

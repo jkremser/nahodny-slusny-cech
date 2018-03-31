@@ -1,3 +1,11 @@
+::selection {
+  background: #3304;
+}
+
+::-moz-selection {
+  background-color: #3304;
+}
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -88,10 +96,6 @@ hr {
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
-}
-
-::selection {
-  background: #9fd1c2;
 }
 
 body {
